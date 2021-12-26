@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Luxstay</title>
+</head>
+<body>
+    <div id="main">
+        <div class="header">
+            <div class="grid wide">
+                <div class="row justify-content-space-betweent">
+                    <div class="header__logo">
+                        <img src="./asset/img/luxstay.png" alt="luxstay" class="header__logo-img">
+                    </div>
+                    
+                    <div class="header__search hide-on-mobile">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                        <div class="header__search-date hide-on-mobile">
+                            <i class="fas fa-calendar-week"></i>
+                            Ngày
+                        </div>
+                        <div class="header__search-customers">
+                            <i class="fas fa-user"></i>
+                            Số khách
+                        </div>
+                        <div class="header__search-icon">
+                            <a href="" style="color: var(--white-color);">
+                                <i class="far fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                        <ul class="header__navbar-list hide-on-mobile-tablet">
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-link">Guide</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-link">Host</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-link">
+                                  <div>
+                                    <form action="" class="form">
+                                      <div class="from__row">
+                                           <label class="form__label" for="name">Name:</label>
+                                           <input class="form__input" type="text" id="name">
+                                       </div>
+                                  </div>
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-link">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    
+                    </div>
+                </div>
+                <!-- header navbar mobile and tablet -->
+                <div  class="header__navbar-mobile-tablet-btn">
+                    <i class="header__navbar-mobile-tablet-icon fas fa-bars"></i>
+                </div>
+                <div class="header__navbar-mobile-tablet">
+                    <div class="header__navbar-mobile-tablet-content">
+                        <ul>
+                            <li><a href="">Guide</a></li>
+                            <li><a href="">Host</a></li>
+                            <li><a href="">Đăng ký</a></li>
+                            <li><a href="">Đăng nhập</a></li>
+                        </ul>
+                    </div>
+                    <i class="header__navbar-mobile-tablet-close fas fa-times"></i>
+                </div>
+                <div class="header__navbar-mobile-tablet-overlay"></div>
+                
+                
+                
+                
+      </div>
+
+        <div class="app__container">
+            <div class="grid wide">
+                   <div class="slider">
+                        <div class="slider-wrapper">
+                            <div class="slider-main">
+                                <div class="slider-item">
+                                    <a href="">
+                                        <img src="https://beta-api.luxstay.net/api/upload/file?storage=admins/12/qF7ukmI--Rwr2H5LwzVZwcXa.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="slider-item">
+                                    <a href="">
+                                        <img src="https://beta-api.luxstay.net/api/upload/file?storage=admins/12/Vt9XtXZykcTYNAqCRKOynxWx.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dots">
+                            <span class="dot" data-index = '0'></span>
+                            <span class="dot" data-index = '1'></span>
+                        </div>
+                        <i class="fas fa-chevron-left slider-prev hide-on-mobile"></i>
+                        <i class="fas fa-chevron-right slider-next hide-on-mobile"></i>
+                   </div>
+            
+                    <div class="slogan">
+                        <p class="heading">Chào mừng đến với Luxstay!</p>
+                        <p class="description">Đặt chỗ ở, homestay, cho thuê xe, trải nghiệm và nhiều hơn nữa trên Luxstay</p>
+                        <p class="description"><a href="http://127.0.0.1:5500/dangki.html">Đăng Nhập</a> hoặc <a href="">Đăng ký</a> để trải nghiệm !</p>
+                        <a href=""></a>
+                    </div>
+            </div>
+                    
+            <div class="favorite-places">
+                <div class="grid wide">
+                    <p class="heading">Địa điểm nổi bật</p>
+                <p class="description">Cùng Luxstay bắt đầu chuyến hành trình chinh phục thế giới của bạn</p>
+                <div class="row sm-gutter favorite-places-slider">
+                    <div class="col l-2-4 m-4 c-12 ">
+                        <div  class="favorite-places-item">
+                            <a href="#">
+                                <div class="favorite-places-item-img" style="background-image: url('https://cdn.luxstay.com/home/location/location_1_1559734709.png'); ">
+                                    <div class="favorites-places-desc">
+                                        <p class="favorites-places-desc-heading">Hà Nội</p>
+                                        <p class="favorites-places-desc-info">2200 chỗ ở</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-12 ">
+                        <div  class="favorite-places-item">
+                            <a href="#">
+                                <div class="favorite-places-item-img" style="background-image: url('https://cdn.luxstay.com/home/location/location_5_1559735011.png'); ">
+                                    <div class="favorites-places-desc">
+                                        <p class="favorites-places-desc-heading">TP.Hồ Chí Minh</p>
+                                        <p class="favorites-places-desc-info">2800 chỗ ở</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-12">
+                        <div  class="favorite-places-item">
+                            <a href="#">
+                                <div class="favorite-places-item-img" style="background-image: url('https://cdn.luxstay.com/home/location/location_6_1559786202.png'); ">
+                                    <div class="favorites-places-desc">
+                                        <p class="favorites-places-desc-heading">Hội An</p>
+                                        <p class="favorites-places-desc-info">450 chỗ ở</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-12">
+                        <div  class="favorite-places-item">
+                            <a href="#">
+                                <div class="favorite-places-item-img" style="background-image: url('https://cdn.luxstay.com/home/location/location_1_1559373089.png'); ">
+                                    <div class="favorites-places-desc">
+                                        <p class="favorites-places-desc-heading">Nha Trang</p>
+                                        <p class="favorites-places-desc-info">635 chỗ ở</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-12">
+                        <div  class="favorite-places-item">
+                            <a href="#">
+                                <div class="favorite-places-item-img" style="background-image: url('https://cdn.luxstay.com/home/location/location_5_1559786196.png'); ">
+                                    <div class="favorites-places-desc">
+                                        <p class="favorites-places-desc-heading">Quảng Ninh</p>
+                                        <p class="favorites-places-desc-info">210 chỗ ở</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-12">
+                        <div  class="favorite-places-item">
+                            <a href="#">
+                                <div class="favorite-places-item-img" style="background-image: url('https://cdn.luxstay.com/home/location/location_4_1559786177.png'); ">
+                                    <div class="favorites-places-desc">
+                                        <p class="favorites-places-desc-heading">Đà Lạt</p>
+                                        <p class="favorites-places-desc-info">980 chỗ ở</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-12">
+                        <div  class="favorite-places-item">
+                            <a href="#">
+                                <div class="favorite-places-item-img" style="background-image: url('https://cdn.luxstay.com/home/location/location_16_1559303173.png'); ">
+                                    <div class="favorites-places-desc">
+                                        <p class="favorites-places-desc-heading">Đà Nẵng</p>
+                                        <p class="favorites-places-desc-info">2340 chỗ ở</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-12">
+                        <div  class="favorite-places-item">
+                            <a href="#">
+                                <div class="favorite-places-item-img" style="background-image: url('https://cdn.luxstay.com/home/location/location_10_1559303118.png'); ">
+                                    <div class="favorites-places-desc">
+                                        <p class="favorites-places-desc-heading">Vũng Tàu</p>
+                                        <p class="favorites-places-desc-info">1200 chỗ ở</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+
+            <div class="promotion">
+                <div class="grid wide">
+                    <p class="heading">Ưu đãi độc quyền</p>
+                <div class="promotion__desc">
+                    <p class="description">Chỉ có tại Luxstay, hấp dẫn và hữu hạn, book ngay!</p>
+                    <a href="">xem thêm</a>
+                </div>
+                <div class="row sm-gutter promotion-slider">
+                    <div class="col l-4 m-6 c-12">
+                        <a href="">
+                            <div class="promotion__img1"></div>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <a href="">
+                            <div class="promotion__img2"></div>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <a href="">
+                            <div class="promotion__img3"></div>
+                        </a>
+                    </div>
+                </div> 
+                </div>
+            </div>
+
+            <div class="suggestions mt-50">
+                <div class="grid wide">
+                    <div class="heading">Gợi ý từ Luxstay</div>
+                <p class="description">Những địa điểm thường đến mà Luxstay gợi ý dành cho bạn</p>
+                <div class="row sm-gutter suggestions-slider">
+            
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="suggestions-item">
+                            <div class="suggestions__img" style="background-image: url('https://cdn.luxstay.com/home/apartment/apartment_1_1625465608.jpg');"></div>
+                            <div class="suggestions-heading">Vi vu ngoại thành hà nội</div>
+                            <div class="suggestions-desc">Trải nghiệm không gian thoáng đãng cho chuyến đi gần ngay Hà Nội</div>
+                        </a>
+                    </div> 
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="suggestions-item">
+                            <div class="suggestions__img" style="background-image: url('https://cdn.luxstay.com/home/apartment/apartment_2_1614588617.jpg');"></div>
+                            <div class="suggestions-heading">vũng tàu biệt thự hồ bơi</div>
+                            <div class="suggestions-desc">Những căn biệt thự hồ bơi dành cho kỳ nghỉ của bạn tại Vũng Tàu</div>
+                        </a>
+                    </div> 
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="suggestions-item">
+                            <div class="suggestions__img" style="background-image: url('https://cdn.luxstay.com/home/apartment/apartment_1_1614660728.jpg');"></div>
+                            <div class="suggestions-heading">hà nội nội thành lãng mạn</div>
+                            <div class="suggestions-desc">Không gian lãng mạn dành cho các cặp đôi tại trung tâm Hà Nội</div>
+                        </a>
+                    </div> 
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="suggestions-item">
+                            <div class="suggestions__img" style="background-image: url('https://cdn.luxstay.com/home/apartment/apartment_1_1584606781.jpg');"></div>
+                            <div class="suggestions-heading">Bể bơi & BBQ</div>
+                            <div class="suggestions-desc">Trải nghiệm đẳng cấp với những căn homestay có bể bơi đẹp và khu vực BBQ ấm cúng</div>
+                        </a>
+                    </div> 
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="suggestions-item">
+                            <div class="suggestions__img" style="background-image: url('https://cdn.luxstay.com/home/apartment/apartment_2_1584606872.jpg');"></div>
+                            <div class="suggestions-heading">Siêu giảm giá</div>
+                            <div class="suggestions-desc">Top chỗ ở giảm giá đến 50% từ các chủ nhà thân thiện trên homestay</div>
+                        </a>
+                    </div> 
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="suggestions-item">
+                            <div class="suggestions__img" style="background-image: url('https://cdn.luxstay.com/home/apartment/apartment_2_1615794965.jpg');"></div>
+                            <div class="suggestions-heading">Sài gòn cần là có ngay</div>
+                            <div class="suggestions-desc">Những căn homestay có 01 phòng ngủ  tại Sài gòn có thể đặt nhanh chóng</div>
+                        </a>
+                    </div> 
+                </div>
+                </div>
+            </div>
+
+            <div class="discovery mt-50">
+                <div class="grid wide">
+                    <div class="heading">Gợi ý khám phá</div>
+                <p class="description">Để mỗi chuyến đi là một hành trình truyền cảm hứng, mỗi căn phòng là một khoảng trời an yên</p>
+                <div class="row sm-gutter discovery-slider">
+                    <div class="col l-4 m-12 c-12">
+                        <a href="">
+                            <div class="discovery-item">
+                                <a href="" class="discovery-item-link">Thông tin Homestay</a>
+                                <div class="discovery-item-title">
+                                    5 resort hạng sang ở Việt Nam xuất hiện trên tạp chí du dịch Anh
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <a href="">
+                            <div class="discovery-item">
+                                <a href="" class="discovery-item-link">Thông tin Homestay</a>
+                                <div class="discovery-item-title">
+                                    5 resort hạng sang ở Việt Nam xuất hiện trên tạp chí du dịch Anh
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <a href="">
+                            <div class="discovery-item">
+                                <a href="" class="discovery-item-link">Thông tin Homestay</a>
+                                <div class="discovery-item-title">
+                                    5 resort hạng sang ở Việt Nam xuất hiện trên tạp chí du dịch Anh
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <a href="">
+                            <div class="discovery-item">
+                                <a href="" class="discovery-item-link">Thông tin Homestay</a>
+                                <div class="discovery-item-title">
+                                    5 resort hạng sang ở Việt Nam xuất hiện trên tạp chí du dịch Anh
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <a href="">
+                            <div class="discovery-item">
+                                <a href="" class="discovery-item-link">Thông tin Homestay</a>
+                                <div class="discovery-item-title">
+                                    5 resort hạng sang ở Việt Nam xuất hiện trên tạp chí du dịch Anh
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <a href="">
+                            <div class="discovery-item">
+                                <a href="" class="discovery-item-link">Thông tin Homestay</a>
+                                <div class="discovery-item-title">
+                                    5 resort hạng sang ở Việt Nam xuất hiện trên tạp chí du dịch Anh
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="guidelines mt-50">
+                <div class="grid wide">
+                    <div class="heading">Hướng dẫn sử dụng</div>
+                <p class="description">Đặt chỗ nhanh, thanh toán đơn giản, sử dụng dễ dàng</p>
+                <div class="row sm-gutter guidelines-slider">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="guidelines-item">
+                                <a href="">
+                                <div class="guidelines-img" style="background-image: url('https://cdn.luxstay.com/home/theme/theme_3_1583838065.jpg');"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="guidelines-item">
+                        <a href="">
+                                <div class="guidelines-img" style="background-image: url('https://cdn.luxstay.com/home/theme/theme_4_1583838088.jpg');"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="guidelines-item">
+                                <a href="">
+                                <div class="guidelines-img" style="background-image: url('https://cdn.luxstay.com/home/theme/theme_10_1583894021.jpg');"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="contact-logo-img" style="background-image: url('https://c4img.onlinefriday.vn/r600x600/12_2019/f/49/9/9074403037_1575625908.png');"></div>
+                        <div class="contact-heading">TÌM KIẾM CHỖ Ở GIÁ TỐT NHẤT</div>
+                        <div class="contact-desc">Luxstay hiện là nền tảng đặt phòng trực tuyến #1 Việt Nam. Đồng hành cùng chúng tôi, bạn có những chuyến đi mang đầy trải nghiệm. Với Luxstay, việc đặt chỗ ở, biệt thự nghỉ dưỡng, khách sạn, nhà riêng, chung cư... trở nên nhanh chóng, thuận tiện và dễ dàng.</div>
+                        <div class="contact__qr">
+                            <img src="./asset/img/qr-code.png" alt="" class="contact__qr-img">
+                            <div class="contact__apps">
+                                <a href="" class="contact__app-link">
+                                    <img src="./asset/img/apple-store.svg" alt="" class="contact_app-icon">
+                                </a>
+                                <a href="" class="contact__app-link">
+                                    <img src="./asset/img/huawei.svg" alt="" class="contact_app-icon">
+                                </a>
+                                <a href="" class="contact__app-link">
+                                    <img src="./asset/img/google-play.svg" alt="" class="contact_app-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12">
+                        <div class="contact-img" style="background-image: url('https://www.luxstay.com/home/home-02.png');"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-2-4 m-6">
+                            <div class="footer__contact">
+                                <img src="https://c4img.onlinefriday.vn/r600x600/12_2019/f/49/9/9074403037_1575625908.png" alt="" class="footer__contact-img">
+                                <div class="footer__message">
+                                    <i class="footer__message-icon fas fa-comment-dots"></i>
+                                    <div>
+                                        <div class="footer__message-heading">Messenger</div>
+                                        <div class="footer__message-info">
+                                            <a href="" class="footer__message-info-link">http://m.me/luxstay</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer__tel">
+                                    <i class="footer__tel-icon fas fa-phone-volume"></i>
+                                    <div>
+                                        <div class="footer__tel-heading">Call center</div>
+                                        <div class="footer__tel-info">
+                                            <a href="" class="footer__tel-info-link">18006586 (Việt Nam)</a>
+                                            <a href="" class="footer__tel-info-link">0889866666</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="footer__follow-apps">
+                                    <h3 class="footer__heading">follow us</h3>
+                                    <a href="" class="footer__follow-apps-link">
+                                        <i class="footer__follow-apps-icon fab fa-instagram"></i>
+                                    </a>
+                                    <a href="" class="footer__follow-apps-link">
+                                        <i class="footer__follow-apps-icon fab fa-facebook"></i>
+                                    </a>
+                                    <a href="" class="footer__follow-apps-link">
+                                        <i class="footer__follow-apps-icon fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-6 hide-on-mobile">
+                            <h3 class="footer__heading">TOP HOMESTAY ĐƯỢC YÊU THÍCH</h3>
+                            <ul class="footer__list">
+                                <li><a href="" class="footer__item-link">Homestay Đà Lạt</a></li>
+                                <li><a href="" class="footer__item-link">Homestay Hà Nội</a></li>
+                                <li><a href="" class="footer__item-link">Homestay Hồ Chí Minh</a></li>
+                                <li><a href="" class="footer__item-link">Homestay Sapa</a></li>
+                                <li><a href="" class="footer__item-link">Homestay Vũng Tàu</a></li>
+                                <li><a href="" class="footer__item-link">Homestay Tam Đảo</a></li>
+                                <li><a href="" class="footer__item-link">Homestay Hội An</a></li>
+                                <li><a href="" class="footer__item-link">Homestay Đà Nẵng</a></li>
+                                <li><a href="" class="footer__item-link">Homestay Hạ Long</a></li>
+                                <li><a href="" class="footer__item-link">Homestay Phan Thiết</a></li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-6 hide-on-mobile">
+                            <h3 class="footer__heading">Không gian ưu thích</h3>
+                            <ul class="footer__list">
+                                <li><a href="" class="footer__item-link">Căn hộ dịch vụ</a></li>
+                                <li><a href="" class="footer__item-link">Biệt thự</a></li>
+                                <li><a href="" class="footer__item-link">Nhà riêng</a></li>
+                                <li><a href="" class="footer__item-link">Studio</a></li>
+                                <li><a href="" class="footer__item-link">Travel Guide</a></li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-6 hide-on-mobile">
+                            <h3 class="footer__heading">về chúng tôi</h3>
+                            <ul class="footer__list">
+                                <li><a href="" class="footer__item-link">Blog</a></li>
+                                <li><a href="" class="footer__item-link">Điều khoản hoạt động</a></li>
+                                <li><a href="" class="footer__item-link">1800 6586</a></li>
+                                <li><a href="" class="footer__item-link">+84 8988 66666</a></li>
+                                <li><a href="" class="footer__item-link">info@luxstay.com</a></li>
+                                <li><a href="" class="footer__item-link">Trang thông tin dành cho chủ nhà</a></li>
+                                <li><a href="" class="footer__item-link">Cơ hội nghề nghiệp</a></li>
+                                <li><a href="" class="footer__item-link">Tạp chí du lịch</a></li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-6 hide-on-mobile">
+                            <h3 class="footer__heading">Tải ứng dụng Luxstay</h3>
+                            <div class="download__apps">
+                                <div class="download__qr">
+                                    <img src="./asset/img/qr-code.png" alt="" class="download__qr-img">
+                                </div>
+                                <div class="download__app">
+                                    <a href="">
+
+                                        <img src="./asset/img/apple-store.svg" alt="" class="download__app-item">
+                                    </a>
+                                    <a href="">
+
+                                        <img src="./asset/img/google-play.svg" alt="" class="download__app-item">
+                                    </a>
+                                    <a href="">
+
+                                        <img src="./asset/img/huawei.svg" alt="" class="download__app-item">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p>© 2021 Luxstay. Bản quyền thuộc về Công ty TNHH Luxstay Việt Nam - MSDN: 0108308449. Mọi hành vi sao chép đều là phạm pháp nếu không có sự cho phép bằng văn bản của chúng tôi.</p>
+                    <p>Tầng 21 tòa nhà Capital Tower số 109 phố Trần Hưng Đạo, phường Cửa Nam, quận Hoàn Kiếm, Hà Nội. Email: info@luxstay.com, Số điện thoại: 18006586.</p>
+                    <p>Số Giấy chứng nhận đăng ký doanh nghiệp: 0108308449, ngày cấp: 06/06/2018, nơi cấp: Sở Kế hoạch và Đầu tư TP Hà Nội</p>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./app.js"></script>
+<script src="./slickslider.js"></script>
+</body>
+</html>
